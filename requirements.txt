@@ -2,17 +2,21 @@ fastapi
 uvicorn[standard]
 python-dotenv
 
-# LangChain core packa
+# LangChain core packages
+langchain==0.2.*
+langchain-core==0.2.*
+langchain-community==0.2.*
 
 # LangChain serving
-
+langserve
 
 # LLM integrations
+langchain-groq
 groq
-
+openai
 
 # Document loaders + Vector stores
 pypdf
 chromadb
-
+faiss-cpu
 bs4
