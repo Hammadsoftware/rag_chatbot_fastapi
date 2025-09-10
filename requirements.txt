@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# LangChain core packa
+
+# LangChain serving
+
+
+# LLM integrations
+groq
+
+
+# Document loaders + Vector stores
+pypdf
+chromadb
+
+bs4
